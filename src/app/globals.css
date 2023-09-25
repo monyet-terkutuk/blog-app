@@ -1,7 +1,7 @@
 :root {
   --bg: #f8f5f2;
-  --textColor: ##222525;
-  --softBg: ##fffffe;
+  --textColor: #222525;
+  --softBg: #fffffe;
   --softTextColor: #222525;
 }
 
@@ -21,11 +21,18 @@ a {
   text-decoration: none;
 }
 
-.light {
+.dark {
   --bg: #0f172a;
   --textColor: #ddd;
   --softBg: #1f273a;
   --softTextColor: #a6a6a6;
+}
+
+.light {
+  --bg: #f8f5f2;
+  --textColor: #222525;
+  --softBg: #fffffe;
+  --softTextColor: #222525;
 }
 
 .container {
@@ -76,8 +83,8 @@ a {
   }
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
   .wrapper {
     max-width: 475px;
   }
-}
+} */
