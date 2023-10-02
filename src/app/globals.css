@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&family=Coming+Soon&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,900&family=Nunito:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap");
+
 :root {
   --bg: #f8f5f2;
   --textColor: #222525;
@@ -9,6 +11,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* font-family: "AR One Sans", sans-serif; */
+  font-family: "Roboto", sans-serif;
 }
 
 body {

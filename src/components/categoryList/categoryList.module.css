@@ -23,27 +23,27 @@
   border-radius: 10px;
 }
 
-.category.javascript {
-  background-color: #57c4ff31;
+.category.backend {
+  background-color: #da85c731;
 }
 
 .category.go {
-  background-color: #da85c731;
+  background-color: #57c4ff31;
 }
 
 .category.java {
   background-color: #7fb88133;
 }
 
-.category.php {
+.category.frontend {
   background-color: #ff795736;
 }
 
-.category.backend {
+.category.javascript {
   background-color: #ffb04f45;
 }
 
-.category.frontend {
+.category.php {
   background-color: #5e4fff31;
 }
 

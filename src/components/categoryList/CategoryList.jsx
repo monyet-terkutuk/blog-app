@@ -10,27 +10,27 @@ export const CategoryList = () => {
       <div className={styles.categories}>
         <Link href="/blog?cat=style" className={ `${styles.category} ${styles.backend }` }>
           <Image src="/style.png" alt='' width={32} height={32} className={styles.image} />
-          style
+          Back End
         </Link>
         <Link href="/blog?cat=style" className={ `${styles.category} ${styles.frontend }` }>
           <Image src="/fashion.png" alt='' width={32} height={32} className={styles.image} />
-          fashion
+          Front End
         </Link>
         <Link href="/blog?cat=style" className={ `${styles.category} ${styles.javascript }` }>
           <Image src="/food.png" alt='' width={32} height={32} className={styles.image} />
-          food
+          JavaScript
         </Link>
         <Link href="/blog?cat=style" className={ `${styles.category} ${styles.go }` }>
           <Image src="/travel.png" alt='' width={32} height={32} className={styles.image} />
-          travel
+          Golang
         </Link>
         <Link href="/blog?cat=style" className={ `${styles.category} ${styles.php }` }>
           <Image src="/culture.png" alt='' width={32} height={32} className={styles.image} />
-          culture
+          PHP
         </Link>
         <Link href="/blog?cat=style" className={ `${styles.category} ${styles.java }` }>
           <Image src="/coding.png" alt='' width={32} height={32} className={styles.image} />
-          coding
+          Java
         </Link>
       </div>
     </div>
